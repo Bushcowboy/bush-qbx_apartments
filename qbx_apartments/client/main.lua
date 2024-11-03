@@ -313,7 +313,7 @@ end)
 
 RegisterNetEvent('apartments:client:ChangeOutfit', function()
     TriggerServerEvent("InteractSound_SV:PlayOnSource", "Clothes1", 0.4)
-    TriggerEvent('rcore_clothing:openChangingRoom')
+    TriggerEvent('qb-clothing:client:openOutfitMenu')
 end)
 
 RegisterNetEvent('apartments:client:OpenStash', function(apId)
